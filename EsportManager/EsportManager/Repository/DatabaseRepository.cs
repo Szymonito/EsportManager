@@ -1,6 +1,50 @@
-﻿namespace EsportManager.Repository;
+﻿using Dapper;
+using Npgsql;
+
+namespace EsportManager.Repository;
 
 public class DatabaseRepository
 {
-    
+    private readonly string _connectionString;
+
+    public DatabaseRepository(string connectionString)
+    {
+        _connectionString = connectionString;
+    }
+
+    public void InitializeDatabase()
+    {
+        using var connection = new NpgsqlConnection(_connectionString);
+        connection.Open();
+
+        connection.Execute(@"
+          CREATE TABLE IF NOT EXISTS Players (
+              Id SERIAL PRIMARY KEY,
+              Name TEXT,
+              Skill INTEGER,
+              Stress INTEGER,
+              Fatigue INTEGER,
+              Points INTEGER,
+              Game TEXT,
+              Money DECIMAL);");
+
+
+        connection.Execute(@"
+        CREATE TABLE IF NOT EXISTS Tournamets (
+        Id SERIAL PRIMARY KEY,
+        Name TEXT,
+        Entry DATE,
+        Prize DECIMAL,
+        MinSkillRequired INTEGER,
+        );");
+
+        connection.Execute(@"
+CREATE TABLE IF NOT EXISTS Trainings (
+    Id SERIAL PRIMARY KEY,
+    Type TEXT,
+    SkillGained INTEGER,
+    FatigueGained INTEGER,
+    StressGained INTEGER,
+);");
+    }
 }
