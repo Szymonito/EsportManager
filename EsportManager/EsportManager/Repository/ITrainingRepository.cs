@@ -1,6 +1,12 @@
-﻿namespace EsportManager.Repository;
+﻿using System.Collections;
+using System.Collections.Generic;
+using System.Threading.Tasks;
+using EsportManager.Models;
 
-public class ITrainingRepository
+namespace EsportManager.Repository;
+
+public interface ITrainingRepository
 {
-    
+    Task<IEnumerable<Training>> GetAllAsync();
+    Task<Training> GetByIdAsync(int id);
 }
