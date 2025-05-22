@@ -61,7 +61,7 @@ public class PlayerRepository : IPlayerRepository
         using (var connection = new NpgsqlConnection(_connectionString))
         {
             await connection.OpenAsync();
-            await connection.ExecuteAsync("DELETE FROM Players WHERE Id = @Id" new { Id = playerId });
+            await connection.ExecuteAsync("DELETE FROM Players WHERE Id = @Id", new { Id = playerId });
         }
     }
 }

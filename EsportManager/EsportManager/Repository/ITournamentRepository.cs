@@ -9,7 +9,7 @@ namespace EsportManager.Repository;
 public interface ITournamentRepository
 {
     Task<IEnumerable<Tournament>> GetAllAsync();
-    Task<Tournament> GetAsync(int id);
+    Task<Tournament> GetByIdAsync(int id);
     Task AddAsync(Tournament tournament);
     Task UpdateAsync(Tournament tournament);
     Task DeleteAsync(Tournament tournament);

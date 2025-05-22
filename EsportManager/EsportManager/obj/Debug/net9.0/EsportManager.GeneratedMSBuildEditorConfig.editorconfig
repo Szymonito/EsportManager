@@ -15,38 +15,38 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = EsportManager
-build_property.ProjectDir = /home/kociaki/Desktop/EsportManager/EsportManager/EsportManager/
+build_property.ProjectDir = /home/technikum/Desktop/EsportManager/EsportManager/EsportManager/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
-[/home/kociaki/Desktop/EsportManager/EsportManager/EsportManager/App.axaml]
+[/home/technikum/Desktop/EsportManager/EsportManager/EsportManager/App.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[/home/kociaki/Desktop/EsportManager/EsportManager/EsportManager/Views/MainWindow.axaml]
+[/home/technikum/Desktop/EsportManager/EsportManager/EsportManager/Views/MainWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[/home/kociaki/Desktop/EsportManager/EsportManager/EsportManager/Views/PlayersView.axaml]
+[/home/technikum/Desktop/EsportManager/EsportManager/EsportManager/Views/PlayersView.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[/home/kociaki/Desktop/EsportManager/EsportManager/EsportManager/Views/TournamentsView.axaml]
+[/home/technikum/Desktop/EsportManager/EsportManager/EsportManager/Views/TournamentsView.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[/home/kociaki/Desktop/EsportManager/EsportManager/EsportManager/Views/TrainingsView.axaml]
+[/home/technikum/Desktop/EsportManager/EsportManager/EsportManager/Views/TrainingsView.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[/home/kociaki/Desktop/EsportManager/EsportManager/EsportManager/Windows/PlayerDetails.axaml]
+[/home/technikum/Desktop/EsportManager/EsportManager/EsportManager/Windows/PlayerDetails.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[/home/kociaki/Desktop/EsportManager/EsportManager/EsportManager/Windows/PlayerSelection.axaml]
+[/home/technikum/Desktop/EsportManager/EsportManager/EsportManager/Windows/PlayerSelection.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[/home/kociaki/Desktop/EsportManager/EsportManager/EsportManager/Windows/PlayerSigning.axaml]
+[/home/technikum/Desktop/EsportManager/EsportManager/EsportManager/Windows/PlayerSigning.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[/home/kociaki/Desktop/EsportManager/EsportManager/EsportManager/Windows/TournamentDetails.axaml]
+[/home/technikum/Desktop/EsportManager/EsportManager/EsportManager/Windows/TournamentDetails.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[/home/kociaki/Desktop/EsportManager/EsportManager/EsportManager/Windows/TrainingDetails.axaml]
+[/home/technikum/Desktop/EsportManager/EsportManager/EsportManager/Windows/TrainingDetails.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/kociaki/Desktop/EsportManager/EsportManager/EsportManager/EsportManager.csproj": {}
+    "/home/technikum/Desktop/EsportManager/EsportManager/EsportManager/EsportManager.csproj": {}
   },
   "projects": {
-    "/home/kociaki/Desktop/EsportManager/EsportManager/EsportManager/EsportManager.csproj": {
+    "/home/technikum/Desktop/EsportManager/EsportManager/EsportManager/EsportManager.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/kociaki/Desktop/EsportManager/EsportManager/EsportManager/EsportManager.csproj",
+        "projectUniqueName": "/home/technikum/Desktop/EsportManager/EsportManager/EsportManager/EsportManager.csproj",
         "projectName": "EsportManager",
-        "projectPath": "/home/kociaki/Desktop/EsportManager/EsportManager/EsportManager/EsportManager.csproj",
-        "packagesPath": "/home/kociaki/.nuget/packages/",
-        "outputPath": "/home/kociaki/Desktop/EsportManager/EsportManager/EsportManager/obj/",
+        "projectPath": "/home/technikum/Desktop/EsportManager/EsportManager/EsportManager/EsportManager.csproj",
+        "packagesPath": "/home/technikum/.nuget/packages/",
+        "outputPath": "/home/technikum/Desktop/EsportManager/EsportManager/EsportManager/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/kociaki/.nuget/NuGet/NuGet.Config"
+          "/home/technikum/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -32,13 +32,7 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.200"
+        }
       },
       "frameworks": {
         "net9.0": {
@@ -93,7 +87,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.115/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
