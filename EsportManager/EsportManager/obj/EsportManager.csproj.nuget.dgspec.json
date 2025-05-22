@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\SZYMON\\Desktop\\EsportManager\\EsportManager\\EsportManager\\EsportManager.csproj": {}
+    "/home/kociaki/Desktop/EsportManager/EsportManager/EsportManager/EsportManager.csproj": {}
   },
   "projects": {
-    "C:\\Users\\SZYMON\\Desktop\\EsportManager\\EsportManager\\EsportManager\\EsportManager.csproj": {
+    "/home/kociaki/Desktop/EsportManager/EsportManager/EsportManager/EsportManager.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SZYMON\\Desktop\\EsportManager\\EsportManager\\EsportManager\\EsportManager.csproj",
+        "projectUniqueName": "/home/kociaki/Desktop/EsportManager/EsportManager/EsportManager/EsportManager.csproj",
         "projectName": "EsportManager",
-        "projectPath": "C:\\Users\\SZYMON\\Desktop\\EsportManager\\EsportManager\\EsportManager\\EsportManager.csproj",
-        "packagesPath": "C:\\Users\\SZYMON\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SZYMON\\Desktop\\EsportManager\\EsportManager\\EsportManager\\obj\\",
+        "projectPath": "/home/kociaki/Desktop/EsportManager/EsportManager/EsportManager/EsportManager.csproj",
+        "packagesPath": "/home/kociaki/.nuget/packages/",
+        "outputPath": "/home/kociaki/Desktop/EsportManager/EsportManager/EsportManager/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\SZYMON\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/kociaki/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -93,7 +93,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Users\\SZYMON\\.dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
